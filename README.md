@@ -6,14 +6,15 @@ Plantilla para crear aplicaciones web usando Vite, React + TypeScript y Sass
 
 ## Inicio
 
-Instalar las depedencias usando `yarn` y luego ejecutar el proyecto en modo desarrollo con el comando `dev`
+Instalar las depedencias usando `pnpm` y luego ejecutar el proyecto en modo desarrollo con el comando `dev`
 
 ```sh
-yarn install
-yarn dev
+corepack enable
+pnpm install
+pnpm dev
 ```
 
-## Environments
+## Variables de Entorno
 
 Copiar la [plantilla](./.env.template) con las variables de entorno en la raíz del proyecto y documentar el tipado en el
 archivo [env.d.ts](./src/@types/env.d.ts)
@@ -27,23 +28,23 @@ cp .env.template .env
 - `Auth`: Componente de react que valida si el usuarios ha iniciado sesion, ademas de verificar el nivel de acceso a la
   pagina por medio del rol (si lo posee).
 - `Login`: Vista para que el usuario inicie sesion.
-- `Home`: Vista de inicio.
-- `NotFound`: Vista mostrada cuando no se encuentra el recurso solicitado.
+- `Home`: Vista principal.
+- `NotFound`: Vista mostrada cuando no se encuentra la página solicitada.
 
 ## Lista de Comandos
 
 ```sh
 # Ejecutar en modo desarrollo
-yarn dev
+pnpm dev
 
 # Compilar app a producción
-yarn build
+pnpm build
 
 # Ejecutar en modo producción
-yarn preview
+pnpm preview
 
 # Formatear todo el código usando prettier
-yarn format
+pnpm format
 ```
 
 ## Tecnologías Utilizadas

@@ -2,7 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+// IMPORTS
 import '~/scss/main.scss'
+// VIEWS
 import { Auth } from '~/views/Auth'
 import { Home } from '~/views/Home'
 import { Login } from '~/views/Auth/Login'

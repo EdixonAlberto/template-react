@@ -4,6 +4,8 @@
     "syler.sass-indented",
     "naumovs.color-highlight",
     "irongeek.vscode-env",
-    "rangav.vscode-thunder-client"
+    "mgmcdermott.vscode-language-babel",
+    "xabikos.javascriptsnippets",
+    "alduncanson.react-hooks-snippets"
   ]
 }
