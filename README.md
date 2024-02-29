@@ -43,6 +43,9 @@ pnpm build
 # Ejecutar en modo producción
 pnpm preview
 
+# Ejecutar el linter
+pnpm lint
+
 # Formatear todo el código usando prettier
 pnpm format
 ```

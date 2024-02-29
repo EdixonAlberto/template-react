@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // IMPORTS
 import '~/scss/main.scss'
+
 // VIEWS
 import { Auth } from '~/views/Auth'
 import { Home } from '~/views/Home'
